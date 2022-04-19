@@ -54,7 +54,6 @@ class  LinkedList<E> {
        currentIndex +=1 ;
      }
      return currentNode ;
-
   }
   // this Method call tail node
   Node<E>? insertAfter(Node<E> node , E value){
@@ -68,6 +67,9 @@ class  LinkedList<E> {
 
 
 
+
+
+  // will used the linked list with stack
 
 
 
