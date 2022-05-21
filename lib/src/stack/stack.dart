@@ -10,7 +10,7 @@ class Stack<E> {
 
   @override
   String toString() {
-    return 'Stack${_storage.reversed.join("\n")}';
+    return 'Stack ______ Last\n${_storage.reversed.join("\n")}';
   }
 
 

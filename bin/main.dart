@@ -1,23 +1,37 @@
 import 'package:data_structure_project/src/linked_list/linked_list.dart';
 import 'package:data_structure_project/src/nodes/node.dart';
+import 'package:data_structure_project/src/stack/stack.dart';
 
 
 
 void main() {
 
-  final list = LinkedList<int>();
+
+  final  _stack = Stack<int>();
+   _stack.push(1);
+   _stack.push(2);
+   _stack.push(3);
+
+   print(_stack);
+   final element = _stack.pop();
+   print("this is Poped Element: $element");
 
 
 
 
-  list.push(3);
-  list.push(2);
-  list.push(1);
-  print("Before $list");
-  var middleNode = list.nodeAt(2)!;
-   list.insertAfter(middleNode, 24);
-   print('After:' '$list');
-
+  // final list = LinkedList<int>();
+  //
+  //
+  //
+  //
+  // list.push(3);
+  // list.push(2);
+  // list.push(1);
+  // print("Before $list");
+  // var middleNode = list.nodeAt(2)!;
+  //  list.insertAfter(middleNode, 24);
+  //  print('After:' '$list');
+  //
 
   //
   // list.push(3);
