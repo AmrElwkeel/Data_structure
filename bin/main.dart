@@ -4,20 +4,21 @@ import 'package:data_structure_project/src/stack/stack.dart';
 
 void main() {
   const list = ['S', 'M', 'O', 'K', 'E'];
-  final smokeStack = Stack.of(list);
-  print(smokeStack);
-  smokeStack.pop();
-  // final  _stack = Stack<int>();
-  //  _stack.push(1);
-  //  _stack.push(2);
-  //  _stack.push(3);
-  //
-  //  print(_stack);
-  //  final element = _stack.pop();
-  //  print("this is Poped Element: $element");
+  // final smokeStack = Stack.of(list);
+  // print(smokeStack);
+  // smokeStack.pop();
 
+  final _stack = Stack.of(list);
+  _stack.push("1");
+  _stack.push('2');
+  _stack.push('3');
+
+  print(_stack);
+  final element = _stack.pop();
+  print("this is Poped Element: $element");
+  print(_stack);
   // final list = LinkedList<int>();
-  //
+
   //
   //
   //
